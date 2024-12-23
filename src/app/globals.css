@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  transition-property: all ease-in-out;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+a {
+  cursor: pointer;
+}
+
+.image-text_name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 17%;
+}
+.header {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.42);
+}
+.nav-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+.button-nav {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 15px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.welcome-page {
+  width: 100%;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 10rem;
+}
+.welcome-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.welcome-image {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcome-text h1 {
+  font-size: 70px;
+  font-weight: 700;
+  width: 65%;
+}
+.welcome-text p {
+  font-size: 20px;
+  font-weight: 400;
+  width: 80%;
+}
+.welcome-button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+.home-words {
+  background: rgb(1, 67, 1);
+  padding: 5rem;
+  margin-top: 5rem;
+}
+.home-green {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.home-green_text h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 82.5px;
+  color: #ffffff;
+  width: 75%;
+  margin-left: 4rem;
+}
+.simplify {
+  display: flex;
+  gap: 3rem;
+}
+.simplify-view {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #ffffff;
+}
+.simplify-view h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.simplify-view p {
+  width: 50%;
+  color: #ffffffd8;
+}
+.icon {
+  margin-top: 0.5rem;
+}
+.home-button {
+  background: #ec9f01;
+  padding-top: 12px;
+  padding-left: 46px;
+  padding-bottom: 12px;
+  padding-right: 46px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 4rem;
+  margin-bottom: 0;
+}
+.span {
+  color: #ec9f01;
+}
+
+.bizz-contain {
+  padding: 5rem;
+}
+.bizz-image {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bizz-texts_h1 {
+  font-family: DM Sans;
+  font-size: 21px;
+  font-weight: 700;
+  color: grey;
+}
+.bizz-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.bizz-text p {
+  width: 70%;
+}
+.bizz-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.person-image {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.person-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  width: 98%;
+  /* display: flex;
+  text-align: end; */
+}
+.person-text p {
+  width: 80%;
+}
+.person-text {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  gap: 1rem;
+}
+.person-texts {
+}
+.person-texts_h1 {
+  font-family: DM Sans;
+  font-size: 21px;
+  font-weight: 700;
+  color: grey;
+}
