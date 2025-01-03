@@ -7,38 +7,49 @@ import { FaTruckArrowRight } from "react-icons/fa6";
 import { FaMoneyCheckDollar } from "react-icons/fa6";
 import Link from 'next/link';
 import Unique from '@/components/unique/Unique';
+import Business from '@/components/business/Business';
+import Pproduct from '@/components/pproduct/Pproduct';
+import GetApp from '@/components/getapp/GetApp';
+import EmblaCarousel from '@/components/carousel/EmblaCarousel';
+import Advert from '@/components/ads/Advert';
 
 const HomePage = () => {
+
   return (
     <div>
       <Welcome/>
       <Unique/>
-      <div className='bizz-contain'>
-        <div className='flex items-center justify-center'>
-          <div className='bizz-texts'>
-            <div className='bizz-texts_h1'><h1>FOR BUSINESS</h1></div>
-            <div className='bizz-text'>
-              <h1>Tailored Solutions for Business Owners.</h1>
-              <p>Focus on your business while we handle the sourcing and delivery of your bulk food and essential items, saving you time and effort on sourcing logistics.</p>
-            </div>
-          </div>
-          <div className='bizz-image'>
-            <Image src="/Group43231.png" alt='true' width={100} height={100} className='bizz-image'/>
-          </div>
-        </div>
-        <div className='flex items-center mt-16 justify-between gap-20'>
-          <div className='person-image'>
-            <Image src="/Group43231-2.png" alt='true' width={100} height={100} className='person-image'/>
-          </div>
-          <div className='person-texts'>
-            <div className='person-texts_h1'><h1>FOR INDIVIDUALS</h1></div>
-            <div className='person-text'>
-              <h1>Bulk shopping for Individuals made easy</h1>
-              <p>Whether you're buying for your family or stocking up for yourself, enjoy the convenience of ordering bulk food and essential items, delivered straight to your door at unbeatable prices.</p>
-            </div>
-          </div>
+      <Business/>
+      <Pproduct/>
+      <GetApp/>
+      <div className="">
+        <div className='question-contain'>
+          <h1>Frequently Asked Questions.</h1>
         </div>
       </div>
+      <div className=''>
+        <div>
+          <Image src="/Rectangle51.png" width={500} height={500} alt='Rectangle51' className='w-[100%]'/>
+        </div>
+        <div className='current-location'>
+          <div className='current-locate_absolute'>
+            <h1>We currently serve only Lagos</h1>
+            <p>Which of these cities would you want us to serve next?</p>
+            <div className='current-input'>
+              <input type="text"/>
+              <button>Submit</button>
+            </div>
+          </div>
+        </div>
+        <div className='location-container'>
+          <div className='locate-text'>
+            <h2 className=''>Your favorite brands are already on board</h2>
+          </div>
+          <Image src="/Frame1983.png" width={500} height={500} alt='Frame1983' className='w-[100%]'/>
+        </div>
+      </div>
+      <EmblaCarousel/>
+      <Advert/>
     </div>
   )
 }

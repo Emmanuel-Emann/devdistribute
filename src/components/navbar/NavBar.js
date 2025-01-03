@@ -13,7 +13,7 @@ const NavBar = () => {
         </div>
         <nav className='flex items-center gap-16'>
           <ul className='flex items-center gap-16'>
-            <li className="nav-text"><a href="">ABOUT</a></li>
+            <li className="nav-text"><a href="/page/about/About.js">ABOUT</a></li>
             <li className="nav-text"><a href="">FAQs</a></li>
             <li className="nav-text"><a href="">CONTACT</a></li>
           </ul>
