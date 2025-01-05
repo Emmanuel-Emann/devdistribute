@@ -1,4 +1,5 @@
-import HomePage from "@/app/HomePage";
+import { BrowserRouter } from "react-router";
+import HomePage from "@/app/home/page";
 import NavBar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
 import EmblaCarousel from "@/components/carousel/EmblaCarousel";
@@ -6,10 +7,7 @@ import EmblaCarousel from "@/components/carousel/EmblaCarousel";
 export default function Home() {
   return (
     <>
-      <NavBar/>
       <HomePage/>
-      {/* <EmblaCarousel/> */}
-      <Footer/>
     </>
   );
 }
