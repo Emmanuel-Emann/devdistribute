@@ -3,7 +3,7 @@ import React from 'react'
 
 const GetApp = () => {
   return (
-        <div className='mb-16'>
+        <div className='mb-20 mt-20'>
           <div className='get-container'>
             <h1>Get The App</h1>
             <p>We would love to have you on board. Download the app today and receive free delivery on your first order.</p>

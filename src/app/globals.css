@@ -219,7 +219,7 @@ a {
 .welcome-text h1 {
   font-size: 70px;
   font-weight: 700;
-  width: 65%;
+  width: 70%;
 }
 .welcome-text p {
   font-size: 20px;
@@ -450,6 +450,9 @@ a {
   display: flex;
   width: 100%;
 }
+.right-place_text {
+  padding: 1rem 0rem 1rem 0rem;
+}
 .right-place_text h1 {
   font-size: 44px;
   font-weight: 700;
@@ -547,7 +550,11 @@ a {
   border: 0.1px solid #ffffff51;
 }
 .accord-text {
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #ffffff91;
+  background: #ffffff63;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  padding: 1.5rem;
 }
 .abt-text {
   font-size: 28px;
@@ -664,4 +671,31 @@ a {
   font-weight: 600;
   color: #ffffff;
   border-radius: 0.3rem;
+}
+.slider-container {
+  display: flex;
+  align-items: center;
+  gap: -20rem;
+}
+.popular-contain {
+  background: #f2f4f7;
+  padding: 5rem;
+}
+.p-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+.sli-text h2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #0f3d30;
+  letter-spacing: 0.72px;
 }
