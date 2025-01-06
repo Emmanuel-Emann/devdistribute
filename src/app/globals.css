@@ -699,3 +699,200 @@ a {
   color: #0f3d30;
   letter-spacing: 0.72px;
 }
+.faqs-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  width: 50%;
+}
+.faqs-text p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.faqs-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.faq button {
+  background: #ec9f10;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 0.3rem;
+}
+.faq {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+  padding: 5rem;
+}
+.faq-fm {
+  padding: 2rem 3rem 6rem 3rem;
+  width: 100%;
+}
+.faq-form {
+  background: #c9fce9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+.faq-form h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  width: 70%;
+}
+.faq-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 1rem;
+}
+.faq-input input {
+  width: 80%;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  outline: none;
+  list-style: none;
+}
+.faq-input button {
+  background: #ec9f10;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 0.3rem;
+  width: 80%;
+}
+.cont-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+.cont-form input {
+  border: 1px solid rgba(147, 147, 147, 0.679);
+  padding: 0.6rem;
+  width: 50%;
+  outline: none;
+  list-style: none;
+  border-radius: 0.5rem;
+}
+.cont-form textarea {
+  border: 1px solid rgba(147, 147, 147, 0.679);
+  padding: 0.6rem;
+  width: 50%;
+  outline: none;
+  list-style: none;
+  border-radius: 0.5rem;
+}
+.cont-form button {
+  background: #ec9f10;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 0.3rem;
+  width: 50%;
+}
+.contact-image {
+  position: relative;
+}
+.contact-form {
+  position: relative;
+  padding: 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+.contact-form-contain {
+  box-shadow: 4px 2px 12px 6px rgba(68, 68, 88, 0.096);
+  background: #ffffff;
+  border-radius: 1rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: 7rem;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  /* width: 70%; */
+}
+.contact-text p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  width: 60%;
+}
+.hour-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.hour-list h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.hour-list p {
+  font-size: 18px;
+  font-weight: 400;
+  color: grey;
+}
+.our-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.our-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.our-text p {
+  font-size: 18px;
+  font-weight: 400;
+  width: 60%;
+  text-align: center;
+}
+.support {
+  background: #c9fce9;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
